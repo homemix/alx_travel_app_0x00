@@ -1,6 +1,7 @@
 from rest_framework import serializers
 
-from .models import Property,Booking
+from .models import Booking, Property
+
 
 class PropertySerializer(serializers.ModelSerializer):
     class Meta:
