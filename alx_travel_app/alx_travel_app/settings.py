@@ -45,8 +45,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'drf_yasg',
-    'alx_travel_app.listings',
-    # 'listings.apps.ListingsConfig'
+    # 'alx_travel_app.listings',
+    'listings.apps.ListingsConfig'
 ]
 
 MIDDLEWARE = [
